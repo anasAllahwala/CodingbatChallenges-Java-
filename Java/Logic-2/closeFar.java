@@ -15,7 +15,7 @@ public boolean closeFar(int a, int b, int c) {
       return true;
     }
   }
-  if(Math.abs(a-c)==1){
+  if(Math.abs(a-c)<=1){
     if(Math.abs(a-b)>=2 && Math.abs(b-c)>=2){
       return true;
     }
